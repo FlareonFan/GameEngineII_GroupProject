@@ -1,0 +1,54 @@
+.LOG
+12:09 15/09/2018
+
+Figured I'd start a log now, before I forget. Basic task asked of me, was to set up a menu, for the project. On that end, I first spent roughly an hour, setting up proper version control and backing up on the project, so it won't bite me in the ass later. Thankfully, I setted up my new laptop layout to be more friendly in backing up. And hopefully use both Github and OneDrive properly, for backups. In case either fail me, really.
+
+So now, to do the menus. But alas, that was when I suffered technical difficulties, that led to me being flustered, which led to me becoming mentally unfit to continue; least I do something stupid with my anger.
+
+And all because of a fucking Readme, not having a meta file when Unity is launched. Bugger. Just gives me one additional dis to spite Github in future, in spite of that platform being a vital pin on project development. :(
+
+When I've calmed down, I'll see if I can with a clearer mind, deal with my back up woes, without going "sod version control", and waste an hours worth of good intentions.
+
+12:56 15/09/2018
+
+Mind is clearer now. Now to deal with ideally, a bit better project management. Hopefully without rushing mistakes that I've being doing apparently.
+
+13:36 15/09/2018
+
+And sadly, in spite of some lookarounds, I'm still having that same issue. Thankfully, I have a clear mind, but this is quickly escalating into well outside my comfortable zone of expertese. And this is the sort of FUBAR that'd leave me unable to do the required homework within my time slot. I've tried suggestions to install Unity Hub for this, reinstalled Unity in case it was a faulty install, and even installed the most recent 2018.2.XX (2018.2.8f1y) in case it was an issue with a past version. And I still have the issue.
+
+So, I'll see what else I can do. And if not, I'll likely then have to hand my laptop to an expert, to sort out. Because without a working unity, I can't work on a project at all, period. But even in the best case scenario, my last hour was wasted trying to debug my faulty Unity version. :(
+
+11:14 17/09/2018
+
+Just leaving a log under my current situation. It's still FUBAR, I'm still cynical on my current odds, but I have no choice but to waste time in just getting 2018 to run. Otherwise, I will fail, and my team will fail. Simple as that.
+
+So far, I've went as far as going even deeper on the uninstall-reinstall cycle, with clearing roaming data. But still, there has yet to been any ice or results. I've yet to of the top of my head, fully read on possible sollutions, but I've so far not recieved word or help on the debug aspect from my help plea. So it's just me, and broken english.
+
+Only other thing I could try, is attempt to get an older version working first, then upgrade and pray to murphy it works. Then if that fails, maybe NOT tick the documentation first, and see if that works. At this rate, I'm just having to waste time throwing bricks in the wall, and see what sticks really. Because until this messy FUBAR is sorted, I just can't work on the project.
+
+Especially when time is of the essense. If need be, I might have the lecturer borrow this laptop, to see if he'd be able to debug this bloody mess.
+
+12:29 17/09/2018
+
+Finally, after a lot of debugging hell, uninstalls and reinstalls, I FINALLY, got my Unity 2018 to work. For archive purposes, I will list the extensive lengths I've undergone, to fix it.
+
+First, uninstalled Unity, and purged cleaned it with CCleaner, Registery included.
+
+Then, dugged under the Windows OS with this link;
+
+C:\Users\*YOUR USERNAME*\AppData
+
+And purged all the three Local, LocalLow & Roaming, of their Unity entires.
+
+THEN LASTLY, browsed and dug under every file within Windows OS, for any remnant traces of Unity, and found an entry of Unity under this file folder;
+
+C:\ProgramData
+
+Deleted that entry, and then reinstalled Unity. While the firewalls and anti-virus was disabled.
+
+So now, when I re-installed (for likely beyond the 10th time), Unity. I built another new project test, and immediately, my issue log was clear as sky. Tested it again, to be throughly sure, in tabbing into another window. And no freezing.
+
+So, hassle wise, my nightmare is over. And in a way, it gave me insight on how in depth you'd have to scrub, to truly uninstall a program, for a fully clean install, reinstall wise.
+
+So now, I'm taking a lunch break for now, I deserve it. :)
